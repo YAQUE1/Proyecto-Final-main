@@ -1,0 +1,180 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /*hero {
+    background-image: url('icons/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }*/
+  
+  secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  article {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin: 1em;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  llamada-accion {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+
+  .columns2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    -webkit-columns: 150px 3;
+    -moz-columns: 150px 3;
+    columns: 150px 3;
+  /*   column-fill: auto; */
+    column-gap: 10px;
+    background: #eee;
+    border-radius: 5px;
+    /*font: normal 14px Verdana, Arial, Helvetica, sans-serif;*/
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 24px;
+    -webkit-column-span: all;
+    column-span: all;
+    margin: 5px 5px 10px;
+    padding: 5px;
+    border-bottom: solid 1px #666;
+  }
+  p {
+    margin: 0 5px 10px;
+    padding: 5px;
+  }
+
+  body {
+    font-size: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+    font: 24px Arial, Helvética, sans-serif;
+    color: #666;
+    text-align: center;
+  }
+  
+  
+  .columns {
+    display: inline-block;
+    box-sizing: border-box;
+    column-count: 3;
+    column-width: 10px;
+    column-gap: 1px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 5px;
+  }
+
+  .columns1 {
+    display: inline-block;
+    box-sizing: border-box;
+    column-count: 2;
+    column-width: 10px;
+    column-gap: 10px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+  }
+
+  article {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin: 0 0 20px;
+    background-color: #c7eed9; 
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+  }
+  h4 {
+    margin: 5px;
+  }
+
+  
+    #powerbi-report {
+      width: 100%;
+      height: 600px;
+    }
+
+    intro {
+      overflow: hidden;
+      width: 100%;
+  }
+
+  columnas {
+    column-count:3;
+    column-gap: 3em;
+	    column-rule: 1px solid #bbb;
+	    column-width: 140px;
+}
+
+h1{
+  color: rgb(23, 53, 48);
+  text-shadow: 1px 2px 2px black, 0 0 10px rgb(4, 37, 11), 0 0 5px rgb(38, 80, 66);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.home{
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 0 rgba(0,0,0,0.19);
+}
+
+div.home img{
+  width: 100%;
+  height: auto;
+}
+
+div.home:hover{
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px purple;
+  padding: 10px;
+}

@@ -1,0 +1,28 @@
+<div class="col-10 mx-auto my-5">
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th>Id_Recoleccion</th>
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Peso</th>
+                <th>Puntos</th>
+                <th>Contrato</th>
+                <th>Material</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of recoleccion; track $index){
+            <tr>
+                <td>{{item.id_recoleccion}}</td>
+                <td>{{item.fecha}}</td>
+                <td>{{item.hora}}</td>
+                <td>{{item.peso}}</td>
+                <td>{{item.puntos}}</td>
+                <td>{{item.predio.contrato}}</td>
+                <td>{{item.material.nombre}}</td>
+            </tr>
+            }
+        </tbody>
+      </table>
+</div>

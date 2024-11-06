@@ -1,0 +1,15 @@
+id_material,descripcion,nombre,categoria_material_id
+1,"Material impreso utilizado para publicar noticias y anuncios.","Papel de periódico",1
+2,"Material rígido y ligero utilizado para embalar productos.",Cartón,1
+3,"Cajas de cartón utilizadas para empacar cereales.","Cajas de cereal",1
+4,"Papel utilizado para correspondencia y documentos.","Sobres y papel de oficina",1
+5,"Materiales plásticos utilizados para envases de bebidas y productos.","Botellas de plástico (PET, HDPE, PVC)",2
+6,"Contenedores plásticos utilizados para alimentos y productos.","Envases de plástico",2
+7,"Bolsas delgadas utilizadas para llevar compras.","Bolsas de plástico",2
+8,"Contenedores de vidrio utilizados para bebidas y productos.","Botellas de vidrio",3
+9,"Recipientes de vidrio utilizados para almacenar líquidos.","Jarras de vidrio",3
+10,"Metal ligero utilizado en envases y productos.",Aluminio,4
+11,"Metal fuerte utilizado en envases y productos.",Acero,4
+12,"Dispositivos electrónicos utilizados para comunicación.","Telefonos moviles",5
+13,"Equipos electrónicos utilizados para procesar información.",Computadoras,5
+14,"Aparatos electrónicos utilizados para tareas domésticas.",Electrodomésticos,5

@@ -1,0 +1,25 @@
+<div class="col-10 mx-auto my-5">
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th>Id_Predio</th>
+                <th>Contrato</th>
+                <th>Direccion</th>
+                <th>Uso</th>
+                <th>Usuario</th>
+                </tr>
+        </thead>
+        <tbody>
+            @for (item of predio; track $index){
+            <tr>
+                <td>{{item.id_predio}}</td>
+                <td>{{item.contrato}}</td>
+                <td>{{item.direccion}}</td>
+                <td>{{item.uso}}</td>
+                <td>{{item.usuario.nombre}}</td>
+                </tr>
+        }
+        </tbody>
+      </table>
+</div>
+
